@@ -1,0 +1,16 @@
+{
+  "name": "demo-docmosis-cloud",
+  "version": "1.0.0",
+  "description": "Demo of Docmosis Cloud with Node.js",
+  "main": "renderDoc.js",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Joshua Martinez",
+  "license": "MIT"
+}
