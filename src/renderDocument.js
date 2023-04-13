@@ -10,7 +10,7 @@ const querystring = require("querystring");
 const fs = require("fs");
 
 // The data to use for generating the document
-const invoiceData = require("./test-data/data");
+const invoiceData = require("../test-data/data");
 
 // RESTful service host
 const hostname = process.env.HOSTNAME;
@@ -23,7 +23,7 @@ const accessKey = process.env.DOCMOSIS_KEY;
 const template = "/MultiPageInvoiceTemplate.docx";
 
 // The output file name
-const output = "Invoice.pdf";
+const output = "output/Invoice.pdf";
 
 // The data to use for generating the document
 const data = invoiceData;

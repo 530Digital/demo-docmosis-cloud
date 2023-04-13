@@ -16,12 +16,12 @@ This demo is to get hands on with Docmosis Cloud.
 - `cd` into repo directory
 - Rename .example.env to .env
 - Log into your Docmosis Cloud account and get your API Key and update the .env file
-- Run: `npm i`
 - Upload the template located in ./templates to your Docmosis Cloud account temlate directory
+- Run: `npm i`
 
 #### Generating Documents
 
-- Run: `node renderDocument.js`
+- Run: `node ./src/renderDocument.js`
 - Open the file generated in the `output` directory
 
 #### Other
